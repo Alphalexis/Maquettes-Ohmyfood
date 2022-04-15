@@ -1,0 +1,366 @@
+
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header
+    {
+        width: 100%;
+    }
+
+    .header_colonne
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img
+    {
+       height: 60px;
+       width: auto;
+    }
+
+    .recherche
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F6F6F6;
+    }
+
+    .barre
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EAEAEA;
+        border: 0px;
+        box-shadow: inset 0px 2px 4px #CFCFCF;
+    }
+
+    .barre i
+    {
+        font-size: 40px;
+    }
+
+    .search
+    {
+        height: 90px;
+        color: black;
+        background-color: #EAEAEA;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        border: 0px;
+        box-shadow: inset 0px 2px 0px #CFCFCF;
+        background-image: url();
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        
+    }
+
+    ::placeholder
+    {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: #353535
+
+    }
+
+    .reservez
+    {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        text-align: center;
+        margin-bottom: -10px;
+    }
+
+    .decouvrez
+    {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        font-size: 40px;
+        width: 75%;
+        text-align: center;
+    }
+
+    .explorer
+    {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 38px;
+        background: linear-gradient(353deg, #9356DC, #FF79DA);
+        border: 0px;
+        border-radius: 60px 60px 60px 60px;
+        height: 120px;
+        color: white;
+        padding: 40px;
+        margin-bottom: 70px;
+    }
+
+    .fonctionnement_colonne
+    {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        width: 99%;
+        margin-left: 2.5%;
+        margin-bottom: 90px;
+    }
+
+    .fonctionnement_align
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .fonctionnement_titre
+    {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 55px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .bouton
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0px;
+    border-radius: 40px;
+    width: 75%;
+    padding: 65px 60px 65px 9%;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    background-color: #F6F6F6;
+    box-shadow: 3px 3px 15px #E5E5E5;
+}
+
+.bouton h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    background-color: #9356DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: white;
+    padding: 6px;
+    margin-left: -15%;
+    margin-right: 15%;
+
+}
+
+.bouton i
+{
+    color: #767676;
+    font-size: 45px;
+}
+
+.bouton span
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.restaurants
+{
+    background-color: #F6F6F6;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.restaurants_colonne
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.resto_titre
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 40px;
+    margin-bottom: 55px;
+    margin-left: 50px;
+}
+
+.resto_carte
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 0px;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 3%;
+    box-shadow: 3px 3px 25px #E5E5E5;
+}
+
+.nouveau1
+{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-right: -65%;
+    margin-top: 20px; 
+    color: #1F9A7C;
+    background-color: #99E2D0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.nouveau2
+{
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    margin-right: -65%;
+    margin-top: 610px; 
+    color: #1F9A7C;
+    background-color: #99E2D0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.resto_carte i 
+{
+    font-size: 55px;
+    margin-top: -20px;
+}
+
+
+.resto_carte img
+{
+    width: 100%;
+    min-height: 400px;
+    max-height: 10px;
+    object-fit:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nom_resto
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-radius: 0px 0px 0px 0px;
+    margin-left:  5%;
+}
+
+
+.lieu
+{
+
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-radius: 0px 0px 0px 0px;
+    margin-left:  5%;
+}
+
+.footer
+{
+    background-color: #353535;
+    padding-top: 50px;
+    height: 450px;
+}
+
+.footer_titre
+{
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.footer_colonne
+{
+    margin-left: 50px;
+}
+
+.footer_liste
+{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 15px;
+
+}
+
+.footer_obj
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.footer i 
+{
+    color: white;  
+    font-size: 35px;
+}
+
+.footer ul
+{
+    list-style-type: none ;
+    padding: 0;
+    margin: 0;
+    
+}

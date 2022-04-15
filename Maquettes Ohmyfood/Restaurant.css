@@ -1,0 +1,74 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header_colonne
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+    }
+
+    .logo img
+    {
+       height: 70px;
+       width: auto;
+    }
+
+    .header_colonne i 
+    {
+        font-size: 55px;
+        
+    }
+
+    .image_resto
+    {
+        margin-top: 20px;
+        width: 100%;   
+    }
+
+    .image_resto img
+    {
+        width: 100%;
+    min-height: 800px;
+    max-height: 10px;
+    object-fit:cover;
+    }
+
+    .menu
+    {
+        width: 100%;
+        background-color: #F6F6F6;
+        padding-top: 50px;
+        margin-block-start: -170px;
+        position: absolute;
+        border-radius: 100px 100px 0px 0px;
+    }
+
+    .menu_titre_ligne
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu_titre
+    {
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 70px;
+    }
+
+    .menu_colonne i 
+    {
+        font-size: 65px;
+    }
