@@ -49,8 +49,9 @@
         width: 100%;
         background-color: #F6F6F6;
         padding-top: 50px;
+        padding-bottom: 10px;
         margin-block-start: -170px;
-        position: absolute;
+        position: relative;
         border-radius: 100px 100px 0px 0px;
     }
 
@@ -163,7 +164,7 @@
     background-color: #353535;
     padding-top: 50px;
     height: 450px;
-    margin-top: 3200px;
+    position: sticky;
 }
 
 .footer_titre
