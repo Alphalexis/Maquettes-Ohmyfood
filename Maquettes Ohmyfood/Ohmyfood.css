@@ -330,7 +330,7 @@ body{
 {
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 5px;
     width: 100%;
     align-items: center;
 }
@@ -363,6 +363,8 @@ body{
 
 .resto_carte:hover{box-shadow: 5px 5px 25px #cacaca;}
 
+
+
 .nouveau1
 {
     position:absolute;
@@ -384,7 +386,7 @@ body{
     font-weight: 300;
     font-size: 35px;
     right: 80px;
-    margin-top: 620px; 
+    margin-top: 630px; 
     color: #1F9A7C;
     background-color: #99E2D0;
     padding: 10px 20px 10px 20px;
@@ -440,6 +442,27 @@ body{
     background-color: #fff;
     border-radius: 0px 0px 0px 0px;
     margin-left:  5%;
+}
+
+.coeur_plein:hover,.coeur_plein:active
+{
+    opacity: 1;
+    background: -webkit-linear-gradient(271deg, #9356DC, #FF79DA 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 3s;
+
+}
+
+
+.coeur_plein {
+    opacity: 0;
+    font-size: 55px;
+    position: relative;
+    left: 356px;
+    bottom: 110px;
+    
 }
 
 .footer
